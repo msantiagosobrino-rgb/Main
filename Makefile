@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 TARGET = bin/main
-SOURCE = src/main.cpp
+SOURCE = src/main.cpp src/lectura.cpp
 
 all:
 	mkdir -p bin
